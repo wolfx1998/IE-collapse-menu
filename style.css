@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+    padding-top: 50px;
+  }
+  
+  .banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background: tomato;
+    text-align: center;
+    transition: transform 300ms;
+    }
+  .hide {
+      transform: translateY(-50px);
+  }
